@@ -1,0 +1,606 @@
+@media screen and (max-width: 639px) {
+    .header {
+        display: none;
+    }
+    .pic .p2 {
+        display: none;
+    }
+    .pic .p3 {
+        display: none;
+    }
+    .jichang-pc {
+        display: none;
+    }
+    .route .p2 {
+        display: none;
+    }
+    .route {
+        margin-top: 10px;
+        width: 580px;
+        height: 50px;
+        border-left: 2px solid #e8420a;
+        background-color: white;
+        padding-left: 5px;
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .route .p1 {
+        float: left;
+    }
+    .jingdian .right {
+        display: none;
+    }
+    .jingdian .left {
+        width: 580px;
+        height: 900px;
+        background-color: white;
+        margin: 0 auto;
+    }
+    .shiming .text {
+        display: none;
+    }
+    .shiming {
+        width: 580px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: white;
+        text-align: center;
+    }
+    .shiming .tu {
+        width: 400px;
+        height: 300px;
+        background-color: white;
+        text-align: center;
+        padding-top: 40px;
+        padding-left: 50px;
+    }
+    .shiming img {
+        width: 400px;
+        height: 200px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .yuanjing {
+        width: 580px;
+        height: 250px;
+        background-color: white;
+        text-align: center;
+    }
+    .yuanjing .p1 {
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+    .yuanjing .p2 {
+        width: 500px;
+        text-align: left;
+    }
+    .people {
+        width: 580px;
+        height: 200px;
+    }
+    .people img {
+        width: 580px;
+        height: 200px;
+    }
+    .blue {
+        display: none;
+    }
+    .end {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .btn {
+        display: none;
+    }
+    .pic .p4 {
+        display: none;
+    }
+    .jichang-phone {
+        display: none;
+    }
+    .route {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .route .p1 {
+        font-size: 50px;
+    }
+    .route .p3 {
+        display: none;
+    }
+    .jingdian {
+        margin: 0 auto;
+        width: 1000px;
+        height: 900px;
+    }
+    .jingdian .left {
+        width: 500px;
+        height: 900px;
+        float: left;
+        padding: 0px;
+    }
+    .jingdian .left div {
+        height: 100px;
+        width: 500px;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    .jingdian .left img {
+        width: 500px;
+        height: 350px;
+    }
+    .more-pics {
+        display: none;
+    }
+    .yuanjing {
+        display: none;
+    }
+    .shiming {
+        width: 1000px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .shiming img {
+        width: 400px;
+        height: 300px;
+        padding: 0;
+    }
+    .shiming .tu {
+        width: 400px;
+        height: 300px;
+        padding: 0;
+    }
+    .shiming .text {
+        width: 600px;
+        height: 300px;
+        background-color: #1b4d7b;
+        opacity: 0.9;
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+    .shiming .text .p1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .people {
+        width: 1000px;
+        height: 300px;
+    }
+    .people img {
+        width: 1000px;
+        height: 300px;
+    }
+    .white {
+        display: none;
+    }
+    .endphone {
+        display: none;
+    }
+}
+
+* {
+    font-size: 20px;
+    /* border-radius: 0px; */
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    padding: 0;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* opacity: ; */
+    width: 100%;
+    background: url("img/back.png");
+}
+
+ul li {
+    list-style: none;
+}
+
+.header {
+    padding: 0;
+    /* border: 1px solid red; */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* opacity: ; */
+    width: 100%;
+    line-height: 40px;
+}
+
+.header div {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+.header img {
+    margin-left: 800px;
+}
+
+.header {
+    color: white;
+}
+
+.header a {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.navbar {
+    margin-top: 5px;
+    height: 80px;
+    width: 100%;
+}
+
+.container-fluid {
+    padding-top: 25px;
+}
+
+.navbar img {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.navbar-nav li {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    font-size: 15px;
+}
+
+.navbar-nav li a:hover {
+    border-bottom: 2px solid #e8420a;
+    color: #e8420a;
+}
+
+.btn {
+    background-color: #e8420a;
+    color: white;
+    margin-left: 50px;
+}
+
+.pic {
+    background: url("img/banner.jpg") 100% 100%;
+    height: 446px;
+    /* text-align: center; */
+    color: white;
+    width: 100%;
+}
+
+.pic p {
+    padding-top: 60px;
+    margin-left: 100px;
+    height: 50px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.pic .p2 {
+    margin-top: 60px;
+    margin-left: 100px;
+    opacity: 0.5;
+}
+
+.pic .p3 {
+    margin-top: 20px;
+    margin-left: 100px;
+    opacity: 0.5;
+}
+
+.pic form {
+    width: 438px;
+    height: 55px;
+    margin-top: 120px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.pic button {
+    color: gray;
+    height: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.pic input {
+    height: 50px;
+}
+
+.pic .btn1 {
+    width: 80px;
+    background-color: #e8420a;
+    height: 50px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.pic .p4 {
+    margin-top: 40px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+.jichang-pc {
+    margin-top: 100px;
+    height: 360px;
+    width: 1000px;
+    color: white;
+}
+
+.jichang1 {
+    background: url(img/Sbanner2.jpg);
+    height: 360px;
+    width: 700px;
+    display: inline-block;
+    float: left;
+}
+
+.jichang1 .p1 {
+    margin-left: 300px;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.jichang1 .p2 {
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.jichang1 .p3 {
+    margin-left: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.jichang2 {
+    width: 300px;
+    background-color: #14316d;
+    height: 360px;
+    display: inline-block;
+    padding: 100px;
+    padding-left: 80px;
+}
+
+.jichang2 .p3 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.jichang2 button {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #14316d;
+    margin-top: 30px;
+}
+
+.jichang-phone {
+    width: 580px;
+    height: 200px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.jichang-phone .p1 {
+    color: #14316d;
+    font-size: 30px;
+}
+
+.jichang-phone .p2 {
+    color: black;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.jichang-phone .p3 {
+    color: black;
+    opacity: 0.5;
+    font-size: 20px;
+}
+
+.jichang-phone img {
+    float: left;
+    margin-left: 30px;
+}
+
+.jichang-phone div {
+    display: inline-block
+}
+
+.jichang-phone button {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 30px;
+    height: 50px;
+    width: 100px;
+}
+
+
+/* .jingdian {
+    margin: 0 auto;
+    width: 1000px;
+    height: 900px;
+}
+
+.jingdian .left {
+    width: 500px;
+    height: 900px;
+    float: left;
+    padding: 0px;
+}*/
+
+.jingdian .left div {
+    height: 100px;
+    width: 500px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.jingdian .left img {
+    width: 500px;
+    height: 350px;
+}
+
+.jingdian .right {
+    width: 500px;
+    height: 900px;
+    float: left;
+    padding: 0px;
+}
+
+.jingdian .right li {
+    position: relative;
+    width: 500px;
+    height: 300px;
+}
+
+.jingdian .right div {
+    height: 100px;
+    width: 500px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.jingdian .right img {
+    width: 500px;
+    height: 300px;
+}
+
+.more-pics {
+    width: 580px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.more-pics button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+
+/* .shiming {
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+} */
+
+
+/* .shiming img {
+
+    width: 400px;
+    height: 300px;
+    padding: 0;
+}
+
+
+.shiming .tu {
+    width: 400px;
+    height: 300px;
+    padding: 0;
+}
+
+.shiming .text {
+    width: 600px;
+    height: 300px;
+    background-color: #1b4d7b;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.shiming .text .p1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+} */
+
+.blue {
+    width: 1000px;
+    height: 300px;
+    background-color: #1b4d7b;
+    color: white;
+    margin: 0 auto;
+}
+
+.white {
+    width: 580px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.white .p1 {
+    font-size: 30px;
+    text-align: center;
+    height: 50px;
+}
+
+.white li {
+    height: 150px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.white li img {
+    float: left;
+    margin-right: 20px;
+}
+
+.endphone {
+    width: 580px;
+    height: 300px;
+    background-color: #343235;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.end {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.end span {
+    float: left;
+    margin-right: 100px;
+    margin-left: 200px;
+    height: 80px;
+}
+
+.end .partner div {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.end .we a {
+    color: white;
+}
